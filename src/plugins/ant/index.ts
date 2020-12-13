@@ -1,4 +1,4 @@
-import { Button, Input, Steps, Form, Select, Row, Radio, DatePicker, Col, Icon, Checkbox, Switch } from 'ant-design-vue'
+import { Button, Input, Steps, Form, Select, Row, Radio, DatePicker, Col, Icon, Checkbox, Switch, Layout } from 'ant-design-vue'
 
 const ant = {
   install(Vue: any) {
@@ -14,6 +14,8 @@ const ant = {
     Vue.component(Icon.name, Icon)
     Vue.component(Checkbox.name, Checkbox)
     Vue.component(Switch.name, Switch)
+    Vue.component(Layout.name, Layout)
+
   }
 }
 export default ant
